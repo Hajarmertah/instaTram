@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/itemMainMenu"
+        android:title="@string/main_menu"
+        android:icon="@drawable/ic_more_vert"
+        app:showAsAction ="ifRoom" >
+        <menu>
+            <item android:id="@+id/itemHome"
+                android:title="@string/home"
+                android:icon="@drawable/ic_home"
+                app:showAsAction ="never|withText"/>
+            <item android:id="@+id/itemMap"
+                android:title="@string/map"
+                android:icon="@drawable/ic_location"
+                app:showAsAction ="never|withText"/>
+            <item android:id="@+id/itemSettings"
+                android:title="@string/settings"
+                android:icon="@drawable/ic_settings"
+                app:showAsAction ="never|withText">
+                <menu>
+                    <item android:id="@+id/itemLanguage"
+                        android:title="@string/language"
+                        android:icon="@drawable/ic_language"
+                        app:showAsAction ="never|withText"/>
+                    <item android:id="@+id/itemTheme"
+                        android:title="@string/theme"
+                        android:icon="@drawable/ic_invert_color"
+                        app:showAsAction ="never|withText"/>
+                </menu>
+            </item>
+        </menu>
+    </item>
+</menu>

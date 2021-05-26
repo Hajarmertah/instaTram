@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InstaTram</string>
+    <string name="welcome_to_barcelona">Bienvenido a Barecelona</string>
+    <string name="home">Hogar</string>
+    <string name="map">Mapa</string>
+    <string name="capture_photo">Toma una foto</string>
+    <string name="open_gallery">Sube una fot</string>
+    <string name="settings">Ajustes</string>
+    <string name="choose_language_text">Lenguas</string>
+    <string name="language">Idiomas</string>
+    <string name="english">Inglés</string>
+    <string name="spanish">Español</string>
+    <string name="theme">Temas</string>
+    <string name="light">Luz</string>
+    <string name="dark">oscuro</string>
+    <string name="system_default">Sistema por defecto</string>
+    <string name="main_menu">Menú principal</string>
+    <string name="is_title">seleccionar acción de imagen</string>
+    <string name="lbl_camera">Cámera</string>
+    <string name="lbl_gallery">Galería</string>
+    <string name="lbl_add_pic">Añade una foto</string>
+    <string name="cancel">Cancelar</string>
+    <string name="post">Enviar</string>
+    <string name="add_title">Añade título</string>
+    <string name="label_no_Pic_added_yet">Aún no se ha añadido ninguna imagen!!!</string>
+    <string name="lbl_delete">Borrar esta imagen</string>
+    <string name="lbl_edit_posted_pic">Editar el título de la imagen</string>
+    <string name="permission_off">Parece que ha desactivado los permisos necesarios para esta función. Se puede habilitar en Configuración de la aplicación</string>
+    <string name="go_to_settings">IR A LA CONFIGURACIÓN</string>
+    <string name="image">imagen</string>
+    <string name="update_title">Título de actualización</string>
+    <string name="permission_gallery_denied">ha denegado el permiso de almacenamiento para seleccionar una imagen</string>
+    <string name="pic_deleted">publicación eliminada</string>
+    <string name="no_title">Sin título</string>
+    <string name="title_updated">Título actualizado</string>
+    <string name="canceled">Cancelado</string>
+    <string name="keep_editing">Seguir editando</string>
+    <string name="discard_post">Descartar publicación</string>
+    <string name="cancel_update_message">Si descarta ahora, perderá su actualización</string>
+    <string name="cancel_update_title">¿Descartar actualización?</string>
+    <string name="confirm_delete_pic">¿Quieres borrar esta imagen?</string>
+    <string name="confirm_delete_pic_title">¿Eliminar imagen?</string>
+    <string name="you_successfully_added_your_image">has añadido tu imagen con éxito</string>
+    <string name="no_picture">Sin imagen</string>
+    <string name="discard_update">Descartar actualización</string>
+    <string name="cancel_post_message">si descarta ahora, perderá su publicación</string>
+    <string name="cancel_post_title">¿Descartar publicación?</string>
+    <string name="keep">Mantenerse</string>
+
+
+</resources>

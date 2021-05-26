@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app ="http://schemas.android.com/apk/res-auto"
+    android:excludeFromRecents="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    app:chainUseRtl="true">
+    <TextView
+        android:id="@+id/delete_posted_pic"
+        android:background="@drawable/textview_border"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:includeFontPadding="false"
+        android:layout_marginHorizontal="-5dp"
+        android:padding="@dimen/_10sdp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:text="@string/lbl_delete"
+        android:textSize="@dimen/_15sdp"
+        android:drawablePadding="@dimen/_6sdp"
+        app:drawableLeftCompat="@drawable/ic_delete"
+        app:layout_constraintBottom_toTopOf="@id/edit_posted_pic"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/edit_posted_pic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="-5dp"
+        android:background="@drawable/textview_border"
+        android:drawablePadding="@dimen/_6sdp"
+        android:foreground="?attr/selectableItemBackgroundBorderless"
+        android:includeFontPadding="false"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/lbl_edit_posted_pic"
+        android:textSize="@dimen/_15sdp"
+        app:drawableLeftCompat="@drawable/ic_edit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/delete_posted_pic" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintVertical_chainStyle="spread_inside">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/update_title"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.965" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <EditText
+            android:id="@+id/update_title"
+            android:layout_width="@dimen/_250sdp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_gravity="center"
+            android:autofillHints=""
+            android:inputType="text"
+            android:text="title"
+            android:textSize="@dimen/_15sdp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <ImageView
+            android:id="@+id/iv_cancel_update"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_toEndOf="@id/update_title"
+            android:layout_toRightOf="@id/update_title"
+            android:src="@drawable/ic_cancel"
+            android:windowSoftInputMode="stateHidden"/>
+
+        <ImageView
+            android:id="@+id/iv_send_update"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_toEndOf="@id/iv_cancel_update"
+            android:layout_toRightOf="@id/iv_cancel_update"
+            android:src="@drawable/ic_send"
+            android:windowSoftInputMode="stateHidden"/>
+
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
